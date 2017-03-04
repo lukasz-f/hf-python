@@ -1,4 +1,4 @@
-Uruchomienie w linii poleceñ
+Uruchomienie w linii poleceÅ„
 
 Mac OS X i Linux: python3 -V
 Windows: python -V
