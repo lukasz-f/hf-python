@@ -8,3 +8,12 @@ movies.append(1983)
 print(movies)
 
 #Iteracja po liście
+for movie in movies:
+	print(movie)
+
+#Pętla while
+count=0
+while count < len(movies):
+	print(movies[count])
+	count = count + 1
+
