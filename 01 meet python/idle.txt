@@ -1,0 +1,7 @@
+Python IDE = IDLE
+
+IDLE features:
+- TAB completion
+- Recall code statements`: 
+	Windows: Alt+P (Previous), Alt+N (Next)
+	OS X: Ctrl+P (Previous), Ctrl+N (Next)
