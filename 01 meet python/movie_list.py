@@ -11,12 +11,6 @@ print(movies)
 for movie in movies:
 	print(movie)
 
-#Pętla while
-count=0
-while count < len(movies):
-	print(movies[count])
-	count = count + 1
-
 #Zagnieżdżone listy
 movies=["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91, ["Graham Chapman", ["Michael Palin", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
 print(movies)
@@ -26,3 +20,14 @@ print(movies[4][1][3])
 for each_item in movies:
 	print(each_item)
 
+#Iteracja po liście list 2
+for each_item in movies:
+	if isinstance(each_item, list):
+		for nested_item in each_item:
+			if isinstance(nested_item, list):
+				for deeper_item in nested_item:
+					print(deeper_item)
+			else:
+				print(nested_item)
+	else:
+		print(each_item)
