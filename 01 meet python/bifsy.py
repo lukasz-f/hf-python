@@ -1,4 +1,7 @@
-#BIFs = built-in function
+#BIF = built-in function
+
+#Wszystkie BIFs
+dir(__builtins__)
 
 #Wyświetlanie na ekranie
 print('asdf')
