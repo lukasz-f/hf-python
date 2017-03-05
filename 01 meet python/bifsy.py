@@ -3,6 +3,9 @@
 #Wszystkie BIFs
 dir(__builtins__)
 
+#Informacje o BIF
+help(print)
+
 #Wyświetlanie na ekranie
 print('asdf')
 
