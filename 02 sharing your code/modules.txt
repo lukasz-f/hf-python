@@ -1,0 +1,5 @@
+Modules Repository:
+PyPI - Python Package Index
+
+Computer search module's locations:
+import sys; sys.path
