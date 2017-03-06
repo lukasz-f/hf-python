@@ -1,0 +1,9 @@
+Python distribution creation:
+1. Put script file to folder
+2. Create setup.py
+3. Build a distribution file. Run in terminal: 
+(Windows) setup.py sdist
+(OS X, Linux) python3 setup.py sdist
+4. Install distribution localy. Run in terminal:
+(Windows) setup.py install
+(OS X, Linux) python3 setup.py install
