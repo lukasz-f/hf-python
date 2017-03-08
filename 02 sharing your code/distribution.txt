@@ -18,4 +18,5 @@ PyPI installation. Run in terminal:
 (OS X, Linux) python3 setup.py upload
 
 Distribution(Package) instalation
-pip install some_package
+(Windows) pip install some_package
+(OS X, Linux) pip3 install some_package
