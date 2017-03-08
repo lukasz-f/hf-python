@@ -4,12 +4,18 @@ Python distribution creation:
 3. Build a distribution file. Run in terminal: 
 (Windows) setup.py sdist
 (OS X, Linux) python3 setup.py sdist
-4. Install distribution localy. Run in terminal:
+
+Local installation. Run in terminal:
 (Windows) setup.py install
 (OS X, Linux) python3 setup.py install
-5. Register to PyPI (done only once). Run in terminal:
+
+Register to PyPI (done only once). Run in terminal:
 (Windows) setup.py register
 (OS X, Linux) python3 setup.py register
-6. Install distribution to PyPI. Run in terminal:
+
+PyPI installation. Run in terminal:
 (Windows) setup.py upload
 (OS X, Linux) python3 setup.py upload
+
+Distribution(Package) instalation
+pip install some_package
