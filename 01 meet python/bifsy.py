@@ -1,13 +1,13 @@
 #BIF = built-in function
 
 #Wszystkie BIFs
-dir(__builtins__)
+dir(__builtins__) #__builtins__ to namespace
 
 #Informacje o BIF
 help(print)
 
-#Wyświetlanie na ekranie
-print('asdf')
+print('asdf') 		#Wyświetlanie linii tekstu na ekranie
+print('a', end='') 	#Wyświetlenie znaku a (bez przejścia do nowej linii)
 
 #Obliczenie wielkości listy
 cast = ["Cleese", 'Palin', 'Jones', "Idle"]
