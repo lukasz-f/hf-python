@@ -1,0 +1,13 @@
+Python distribution creation:
+1. Put script file to folder
+2. Create setup.py
+3. Create empty README.txt
+3. Build a distribution file. Run in terminal: 
+(Windows) py -3 setup.py sdist
+(OS X, Linux) python3 setup.py sdist
+
+Local installation:
+1. Open dist folder
+2. Run in terminal:
+(Windows) py -3 -m pip install nesterLSF3-1.0.3.tar.gz
+(OS X, Linux) sudo python3 -m pip install nesterLSF3-1.0.3.tar.gz

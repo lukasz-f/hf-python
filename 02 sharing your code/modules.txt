@@ -2,7 +2,7 @@ Computer search module's locations:
 import sys; sys.path
 
 Modules Repository:
-PyPI - Python Package Index
+PyPI (pie-pee-eye) - Python Package Index
 https://pypi.python.org
 
 PyPI test server
@@ -10,3 +10,5 @@ https://testpypi.python.org/pypi
 
 New PyPI
 PyPI.io
+
+pip - Package Installer for Python
