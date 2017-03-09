@@ -1,4 +1,5 @@
 README.txt
+nesterLSF3.py
 setup.py
 nesterLSF3.egg-info/PKG-INFO
 nesterLSF3.egg-info/SOURCES.txt

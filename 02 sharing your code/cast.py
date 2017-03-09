@@ -1,4 +1,6 @@
-import nester
+import nesterLSF3
 
-cast = ['Palin', 'Cleese', 'Idle', 'Jones', 'Gilliam', 'Chapman']
-nester.print_lol(cast)
+cast = ['Palin', 'Cleese', ['Idle'], ['Jones', ['Gilliam', 'Chapman']]]
+nesterLSF3.print_lol(cast)
+print()
+nesterLSF3.print_lol(cast, True)

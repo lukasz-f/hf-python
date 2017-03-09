@@ -2,3 +2,4 @@ Uruchomienie w linii poleceń
 
 Mac OS X i Linux: python3 -V
 Windows: python -V
+Windows: py -3
