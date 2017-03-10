@@ -26,7 +26,3 @@ try:
 		print("It's...", file=file)
 except IOError as err:
 	print('File error: ' + str(err))
-
-#Open file, readline and close file
-with open('sketch.txt') as data:
-	data.readline()

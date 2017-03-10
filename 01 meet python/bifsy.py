@@ -9,10 +9,6 @@ help(print)
 print('asdf') 		#Wyświetlanie linii tekstu na ekranie
 print('a', end='') 	#Wyświetlenie znaku a (bez przejścia do nowej linii)
 
-#Zapis do pliku
-out = open('data.out', 'w')
-print('a', file=out)
-
 #Obliczenie wielkości listy
 cast = ["Cleese", 'Palin', 'Jones', "Idle"]
 len(cast)
