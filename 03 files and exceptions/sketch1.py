@@ -1,7 +1,8 @@
 #sketch version with extra logic to handle exceptional situations
+#Windows version
 import os
 
-os.chdir('/Users/lukasz/hf-python/03 files and exceptions')
+os.chdir('C:\\repo-git\\hf-python\\03 files and exceptions')
 if os.path.exists('sketch.txt'): # Check if file exists
 	data = open('sketch.txt')
 

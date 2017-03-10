@@ -1,4 +1,5 @@
 #sketch version with letting errors occur and handling them
+#OS X version
 import os
 
 os.chdir('/Users/lukasz/hf-python/03 files and exceptions')
