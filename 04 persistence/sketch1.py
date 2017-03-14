@@ -1,4 +1,4 @@
-#sketch try/except/finally version
+# sketch try/except/finally version
 man = []
 other = []
 

@@ -1,4 +1,4 @@
-#sketch using nesterLSF3.print_lol
+# sketch using nesterLSF3.print_lol
 import nesterLSF3
 
 man = []
@@ -20,7 +20,7 @@ except IOError:
     print('The datafile is missing!')
 
 try:
-    with open('man_data.txt', 'w') as man_file, 
+    with open('man_data.txt', 'w') as man_file, \
             open('other_data.txt', 'w') as other_file:
         nesterLSF3.print_lol(man, file=man_file)
         nesterLSF3.print_lol(other, file=other_file)

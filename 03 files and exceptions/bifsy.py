@@ -1,1 +1,1 @@
-open('text.txt') #open file
+open('text.txt')  # open file

@@ -1,12 +1,12 @@
-#sketch version with letting errors occur and handling them
-#OS X version
+# sketch version with letting errors occur and handling them
+# macOS version
 import os
 
 os.chdir('/Users/lukasz/hf-python/03 files and exceptions')
 try:
     data = open('sketch.txt')
 
-    #Display on screen every line of file
+    # Display on screen every line of file
     for each_line in data:
         try:
             (role, line_spoken) = each_line.split(':', 1)

@@ -1,4 +1,4 @@
-#sketch try with/except version
+# sketch try with/except version
 man = []
 other = []
 
@@ -18,7 +18,8 @@ except IOError:
     print('The datafile is missing!')
 
 try:
-    with open('man_data.txt', 'w') as man_file, open('other_data.txt', 'w') as other_file:
+    with open('man_data.txt', 'w') as man_file, \
+            open('other_data.txt', 'w') as other_file:
         print(man, file=man_file)
         print(other, file=other_file)
 except IOError as err:

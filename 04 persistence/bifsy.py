@@ -1,1 +1,1 @@
-locals() #Zwraca słownik z nazwami i wartościami lokalnych zmiennych
+locals()  # Zwraca słownik z nazwami i wartościami lokalnych zmiennych

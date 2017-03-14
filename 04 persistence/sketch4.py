@@ -1,4 +1,4 @@
-#sketch using pickle.dump
+# sketch using pickle.dump
 import pickle
 
 man = []
@@ -20,7 +20,8 @@ except IOError:
     print('The datafile is missing!')
 
 try:
-    with open('man_data.pickle', 'wb') as man_file, open('other_data.pickle', 'wb') as other_file:
+    with open('man_data.pickle', 'wb') as man_file, \
+            open('other_data.pickle', 'wb') as other_file:
         pickle.dump(man, man_file)
         pickle.dump(other, other_file)
 except IOError as err:

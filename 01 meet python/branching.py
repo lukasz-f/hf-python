@@ -1,4 +1,4 @@
-#Instrukcja if else
+# Instrukcja if else
 if 34 > 43:
     print('34')
 elif 43 == 34:
@@ -6,4 +6,4 @@ elif 43 == 34:
 else:
     print('43')
 
-#Brak instrukcji switch
+# Brak instrukcji switch

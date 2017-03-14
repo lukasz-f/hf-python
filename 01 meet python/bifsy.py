@@ -1,24 +1,28 @@
-#BIF = built-in function
+# BIF = built-in function
+import sys
 
-#Wszystkie BIFs
-dir(__builtins__) #__builtins__ to namespace
+# Wszystkie BIFs
+dir(__builtins__)  # __builtins__ to namespace
 
-#Informacje o BIF
+# Informacje o BIF
 help(print)
 
-print('asdf')										#Wyświetlanie linii tekstu na ekranie
-print('asdf', sep=' ', end='\n', file=sys.stdout)	#Wyświetlanie linii tekstu na ekranie
-print('a', end='')									#Wyświetlenie znaku a (bez przejścia do nowej linii)
+# Wyświetlanie linii tekstu na ekranie
+print('asdf')
+# Wyświetlanie linii tekstu na ekranie
+print('asdf', sep=' ', end='\n', file=sys.stdout)
+# Wyświetlenie znaku a (bez przejścia do nowej linii)
+print('a', end='')
 
-#Zapis do pliku
+# Zapis do pliku
 out = open('data.out', 'w')
 print('a', file=out)
 
-#Obliczenie wielkości listy
+# Obliczenie wielkości listy
 cast = ["Cleese", 'Palin', 'Jones', "Idle"]
 len(cast)
 
-#Sprawdzenie czy zmienna jest listą
+# Sprawdzenie czy zmienna jest listą
 isinstance(cast, list)
 num_names = len(cast)
 isinstance(num_names, list)
