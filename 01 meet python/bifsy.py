@@ -6,9 +6,9 @@ dir(__builtins__) #__builtins__ to namespace
 #Informacje o BIF
 help(print)
 
-print('asdf') 					#Wyświetlanie linii tekstu na ekranie
-print('asdf', file=sys.stdout) 	#Wyświetlanie linii tekstu na ekranie
-print('a', end='')				#Wyświetlenie znaku a (bez przejścia do nowej linii)
+print('asdf')										#Wyświetlanie linii tekstu na ekranie
+print('asdf', sep=' ', end='\n', file=sys.stdout)	#Wyświetlanie linii tekstu na ekranie
+print('a', end='')									#Wyświetlenie znaku a (bez przejścia do nowej linii)
 
 #Zapis do pliku
 out = open('data.out', 'w')
