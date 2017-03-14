@@ -1,0 +1,7 @@
+README.txt
+nesterLSF3.py
+setup.py
+nesterLSF3.egg-info/PKG-INFO
+nesterLSF3.egg-info/SOURCES.txt
+nesterLSF3.egg-info/dependency_links.txt
+nesterLSF3.egg-info/top_level.txt
