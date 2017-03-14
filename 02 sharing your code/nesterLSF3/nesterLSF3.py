@@ -5,7 +5,8 @@ def print_lol(the_list, indent=False, level=0):
 	"""This function takes a positional argument called "the_list", which is any
 	Python list (of, possibly, nested lists). Each data item is the provided list
 	is (recursively) printed to the screen on its own line.
-	A second argument called "level" is used to insert tab-stops when a nested list is encountered."""
+	A second argument called "indent" it's possible to switch on indented output.
+	A third argument called "level" is used to insert tab-stops when a nested list is encountered."""
 
 	for each_item in the_list:
 		if isinstance(each_item, list):
