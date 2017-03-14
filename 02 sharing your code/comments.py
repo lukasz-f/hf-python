@@ -2,9 +2,9 @@
 multi-line comment"""
 
 def methd_name(parameters):
-	'''This is comment
-	for function'''
+    '''This is comment
+    for function'''
 
-	print("inside method")
+    print("inside method")
 
-	#Single-line comment
+    #Single-line comment

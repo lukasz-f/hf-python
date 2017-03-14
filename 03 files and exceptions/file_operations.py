@@ -13,20 +13,20 @@ data.close() #You are done so close file
 
 #try/except/finally
 try:
-	file = open('file.txt')
+    file = open('file.txt')
 except IOError as err:
-	print('File error: ' + str(err))
+    print('File error: ' + str(err))
 finally:
-	if 'file' in locals(): #Check if file object was created
-		file.close()
+    if 'file' in locals(): #Check if file object was created
+        file.close()
 
 #try with/except
 try:
-	with open('file.txt') as file:
-		print("It's...", file=file)
+    with open('file.txt') as file:
+        print("It's...", file=file)
 except IOError as err:
-	print('File error: ' + str(err))
+    print('File error: ' + str(err))
 
 #Open file, readline and close file
 with open('sketch.txt') as data:
-	data.readline()
+    data.readline()
