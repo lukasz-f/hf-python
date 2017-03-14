@@ -1,0 +1,12 @@
+Pickle is Python Standard Library.
+Pickle use custom binary format.
+You can store your pickled data on disk, put it in a database, or transfer it over a network to another computer.
+If something goes wrong pickle module raises PickleError
+
+import pickle
+with open('mydata.pickle', 'wb') as mysavedata:
+	pickle.dump([1, 2, 'three']), mysavedata)
+
+with open('mydata.pickle', 'rb') as myrestoredata:
+	a_list = pickle.load(myrestoredata)
+
