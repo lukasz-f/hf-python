@@ -1,4 +1,4 @@
-'''Athelets module with sorted and sanitized lists without lists copies'''
+'''Athelets module with sorted and sanitized lists with list index access'''
 
 
 def sanitize(time_sting):
@@ -18,20 +18,17 @@ julie = []
 mikey = []
 sarah = []
 
-try:
-    with open('james.txt') as james_file:
-        james = james_file.readline().strip().split(',')
+with open('james.txt') as james_file:
+    james = james_file.readline().strip().split(',')
 
-    with open('julie.txt') as julie_file:
-        julie = julie_file.readline().strip().split(",")
+with open('julie.txt') as julie_file:
+    julie = julie_file.readline().strip().split(",")
 
-    with open('mikey.txt') as mikey_file:
-        mikey = mikey_file.readline().strip().split(',')
+with open('mikey.txt') as mikey_file:
+    mikey = mikey_file.readline().strip().split(',')
 
-    with open('sarah.txt') as sarah_file:
-        sarah = sarah_file.readline().strip().split(',')
-except IOError as err:
-    print('File error: ' + str(err))
+with open('sarah.txt') as sarah_file:
+    sarah = sarah_file.readline().strip().split(',')
 
 for i in range(len(james)):
     james[i] = sanitize(james[i])

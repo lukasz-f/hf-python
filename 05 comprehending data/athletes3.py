@@ -1,4 +1,4 @@
-'''Athelets module with sorted and sanitized lists with list comprehension'''
+'''Athelets module with function chaining'''
 
 
 def sanitize(time_sting):
@@ -18,24 +18,21 @@ julie = []
 mikey = []
 sarah = []
 
-try:
-    with open('james.txt') as james_file:
-        data = james_file.readline()
-    james = data.strip().split(',')
+with open('james.txt') as james_file:
+    data = james_file.readline()
+james = data.strip().split(',')
 
-    with open('julie.txt') as julie_file:
-        data = julie_file.readline()
-    julie = data.strip().split(",")
+with open('julie.txt') as julie_file:
+    data = julie_file.readline()
+julie = data.strip().split(",")
 
-    with open('mikey.txt') as mikey_file:
-        data = mikey_file.readline()
-    mikey = data.strip().split(',')
+with open('mikey.txt') as mikey_file:
+    data = mikey_file.readline()
+mikey = data.strip().split(',')
 
-    with open('sarah.txt') as sarah_file:
-        data = sarah_file.readline()
-    sarah = data.strip().split(',')
-except IOError as err:
-    print('File error: ' + str(err))
+with open('sarah.txt') as sarah_file:
+    data = sarah_file.readline()
+sarah = data.strip().split(',')
 
 print(sorted([sanitize(each_time) for each_time in james]))
 print(sorted([sanitize(each_time) for each_time in julie]))
