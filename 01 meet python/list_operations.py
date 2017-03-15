@@ -47,3 +47,6 @@ print(cast)
 
 # Copied sorting. Returns a sorted copy of original data
 sorted([2, 3, 1])
+
+# Finding with 'in' operator
+print('Cleese' in cast)

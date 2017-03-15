@@ -10,3 +10,6 @@ str.find('!')  # -1
 
 # Remove whitespace from the leading and trailing
 str.strip()
+
+# Finding with 'in' operator
+print('asdf' in str)
