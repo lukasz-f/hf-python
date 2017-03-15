@@ -44,9 +44,12 @@ print(cast)
 # In-place sorting. Arrange in the order and replace original data
 cast.sort()
 print(cast)
+cast.sort(reverse=True)
+print(cast)
 
 # Copied sorting. Returns a sorted copy of original data
 sorted([2, 3, 1])
+sorted([2, 3, 1], reverse=True)
 
 # Finding with 'in' operator
 print('Cleese' in cast)
