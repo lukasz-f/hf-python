@@ -6,4 +6,8 @@ elif 43 == 34:
 else:
     print('43')
 
+# Instrukcja if not
+if not 34 > 43:
+    print('43')
+
 # Brak instrukcji switch
