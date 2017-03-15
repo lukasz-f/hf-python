@@ -5,3 +5,12 @@ IDLE features:
 - Recall code statements:
 	Windows: Alt+P (Previous), Alt+N (Next)
 	OS X: Ctrl+P (Previous), Ctrl+N (Next)
+
+Sublime Text 3 with plugins:
+- Anaconda
+- GitGutter
+- SideBarEnhancements
+- Soda (Theme)
+- Monokai Extended (Color scheme)
+
+PyCharm
