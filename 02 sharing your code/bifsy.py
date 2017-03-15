@@ -15,3 +15,6 @@ int()  # Converts a strings or another number to an integer (if possible)
 id()  # Returns the unique identification for a Python data object
 
 next()  # Returns the next item form a iterable data structure such as a list
+
+float()  # Converts to floating point
+float('2.22')
