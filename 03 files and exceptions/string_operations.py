@@ -13,3 +13,4 @@ str.strip()
 
 # Finding with 'in' operator
 print('asdf' in str)
+print('asdf' not in str)

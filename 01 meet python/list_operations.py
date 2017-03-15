@@ -50,3 +50,4 @@ sorted([2, 3, 1])
 
 # Finding with 'in' operator
 print('Cleese' in cast)
+print('Cleese' not in cast)

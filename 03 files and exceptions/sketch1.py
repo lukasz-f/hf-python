@@ -8,7 +8,8 @@ if os.path.exists('sketch.txt'):  # Check if file exists
 
     # Display on screen every line of file
     for each_line in data:
-        if not each_line.find(':') == -1:  # Check if line contains a colon
+        # if not each_line.find(':') == -1:  # Check if line contains a colon
+        if ':' in each_line:  # Check if line contains a colon
             (role, line_spoken) = each_line.split(':', 1)
             print(role, end='')
             print(' said: ', end='')
