@@ -10,6 +10,9 @@ print(len(cast))
 # Wyświetlenie pojedynczego elementu listy
 print(cast[1])
 
+# Wyświetlenie elementów o indeksach 0, 1, 2
+print(cast[0:3])
+
 # Dodanie elementu na koniec listy
 cast.append("Gilliam")
 print(cast)
