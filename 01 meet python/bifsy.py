@@ -26,3 +26,6 @@ len(cast)
 isinstance(cast, list)
 num_names = len(cast)
 isinstance(num_names, list)
+
+# Copied sorting. Returns a sorted copy of original data
+sorted([2, 3, 1])

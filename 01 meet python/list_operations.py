@@ -40,3 +40,10 @@ print(cast)
 # Dodanie elementu przed podanym indeksem
 cast.insert(0, "Chapman")
 print(cast)
+
+# In-place sorting. Arrange in the order and replace original data
+cast.sort()
+print(cast)
+
+# Copied sorting. Returns a sorted copy of original data
+sorted([2, 3, 1])
