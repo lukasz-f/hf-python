@@ -18,3 +18,6 @@ next()  # Returns the next item form a iterable data structure such as a list
 
 float()  # Converts to floating point
 float('2.22')
+
+set()  # Factory function that creates new empty set
+set([1, 2, 1])  # Set removes duplications
