@@ -58,4 +58,5 @@ print('Cleese' not in cast)
 # List comprehension. Create a new list by applying a transformation to each
 # data item within existing list
 print([each_name.upper() for each_name in cast])
-print([m * 60 for m in [1, 2, 3]])
+secs = [m * 60 for m in [1, 2, 3]]
+print(secs)
