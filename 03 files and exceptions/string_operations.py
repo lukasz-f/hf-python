@@ -12,11 +12,14 @@ s += '!'
 # Get s length
 len(s)
 
-# Return third letter from str
-str[2]
-
-# Return third and fourth letter from str
-str[2:4]
+# Sliceing
+str[2]    # Return third letter from str
+str[2:4]  # Return third and fourth letter from str
+str[1:]   # Return string without first letter
+str[-1]   # Return last letter
+str[-4]   # Return 4th from the end
+str[:-3]  # Substring not including last 3 chars
+str[-3:]  # Return last 3 chars
 
 # Remove whitespace from the leading and trailing
 str.strip()
