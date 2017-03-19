@@ -12,6 +12,8 @@ enumerate()  # Creates a numbered list of paired-data, starting from 0
 
 int()  # Converts a strings or another number to an integer (if possible)
 
+str()  # Converts values to a string (if possible)
+
 id()  # Returns the unique identification for a Python data object
 
 next()  # Returns the next item form a iterable data structure such as a list
