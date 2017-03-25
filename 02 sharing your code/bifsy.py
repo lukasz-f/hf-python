@@ -23,3 +23,7 @@ float('2.22')
 
 set()  # Factory function that creates new empty set
 set([1, 2, 1])  # Set removes duplications
+
+type(1)  # Zwraca typ zmiennej
+a = 'a'
+type(a)
