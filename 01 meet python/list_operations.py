@@ -54,6 +54,11 @@ print(cast)
 sorted([2, 3, 1])
 sorted([2, 3, 1], reverse=True)
 
+strs = ['CCC', 'aaaa', 'd', 'bb']
+sorted(strs)  # ['CCC', 'aaaa', 'bb', 'd']
+sorted(strs, key=len)  # ['d', 'bb', 'CCC', 'aaaa']
+sorted(strs, key=str.lower)  # ['aaaa', 'bb', 'CCC', 'd']
+
 # Finding with 'in' operator
 print('Cleese' in cast)
 print('Cleese' not in cast)
@@ -61,5 +66,11 @@ print('Cleese' not in cast)
 # List comprehension. Create a new list by applying a transformation to each
 # data item within existing list
 print([each_name.upper() for each_name in cast])
-secs = [m * 60 for m in [1, 2, 3]]
-print(secs)
+[m * 60 for m in [1, 2, 3]]
+[n for n in [2, 8, 1, 6] if n <= 2]  # [2, 1]
+
+# Slices
+list = ['a', 'b', 'c', 'd']
+list[1:-1]  # ['b', 'c']
+list[::2]  # ['a', 'c']
+list[0:2] = 'z'  # replace ['a', 'b'] with ['z']
