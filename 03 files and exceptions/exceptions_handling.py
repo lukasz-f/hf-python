@@ -36,3 +36,16 @@ except IOError:
 finally:
     # your code that always run
     pass
+
+try:
+    # your code which might cause a runtime error
+    pass
+except ValueError:
+    # your code when exception occurs
+    pass
+else:
+    # your code when no exception
+    pass
+finally:
+    # your code that always run
+    pass
