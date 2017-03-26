@@ -68,3 +68,6 @@ s.join(list)
 text = ("%d little pigs come out or I'll %s and %s and %s" %
         (3, 'huff', 'puff', 'blow down'))
 txt = '%d int, %s string, %f/%g floating point' % (1, '1', 1.1, 1.1)
+
+hash = {'word': 'garfield', 'count': 42}
+s = 'I want %(count)d copies of %(word)s' % hash
