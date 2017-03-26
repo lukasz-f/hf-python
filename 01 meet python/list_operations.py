@@ -13,6 +13,12 @@ print(cast[1])
 # Wyświetlenie elementów o indeksach 0, 1, 2
 print(cast[0:3])
 
+# Nie tworzy kopii. Obie zmienne wskazują na tą samą listę
+b = cast
+
+# Tworzy kopie listy
+b = cast[:]
+
 # Dodanie elementu na koniec listy
 cast.append("Gilliam")
 print(cast)
@@ -35,6 +41,10 @@ print(cast)
 cast.pop()
 cast.pop()
 print(cast)
+
+# Removes and returns the element at the given index. Returns the rightmost
+# element if index is omitted (roughly the opposite of append())
+cast.pop(0)
 
 # Znalezienie i usunięcie elementu
 cast.remove("Chapman")
@@ -69,8 +79,16 @@ print([each_name.upper() for each_name in cast])
 [m * 60 for m in [1, 2, 3]]
 [n for n in [2, 8, 1, 6] if n <= 2]  # [2, 1]
 
+# Searches for the given element from the start of the list and returns its
+# index. Throws a ValueError if the element does not appear.
+cast.index('Palin')
+
+# Reverses the list in place (does not return it)
+cast.reverse()
+
 # Slices
 list = ['a', 'b', 'c', 'd']
 list[1:-1]  # ['b', 'c']
 list[::2]  # ['a', 'c']
 list[0:2] = 'z'  # replace ['a', 'b'] with ['z']
+
