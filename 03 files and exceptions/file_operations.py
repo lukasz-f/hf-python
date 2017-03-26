@@ -1,7 +1,9 @@
+import codecs
+
 data = open('sketch.txt')  # Open file
 data = open('sketch.txt', 'r')  # Open file for reading
-
 out = open('data.out', 'w')  # Open file for writing
+append = open('file.out', 'a')  # Open file for appending
 
 data.readline()  # Use readline to grab a line from file
 
@@ -30,3 +32,9 @@ except IOError as err:
 # Open file, readline and close file
 with open('sketch.txt') as data:
     data.readline()
+
+# Open utf8 file with codecs
+tekst = []
+with codecs.open('lovecraft.txt', 'r', 'utf8') as fr:
+    for line in fr:
+        tekst.append(line)
