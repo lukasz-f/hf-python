@@ -20,6 +20,7 @@ str[-1]   # Return last letter
 str[-4]   # Return 4th from the end
 str[:-3]  # Substring not including last 3 chars
 str[-3:]  # Return last 3 chars
+'Hello world'[::-1]  # Reverse string
 
 # Remove whitespace from the leading and trailing
 str.strip()
@@ -63,6 +64,7 @@ str.split(':')              # ['asdf', 'fdsa', 'asdf']
 # using the string as the delimiter
 s.join(list)
 '---'.join(['aaa', 'bbb', 'ccc'])  # aaa---bbb---ccc
+''.join(reversed('Hello world'))  # Reverse string
 
 # % operator
 text = ("%d little pigs come out or I'll %s and %s and %s" %
