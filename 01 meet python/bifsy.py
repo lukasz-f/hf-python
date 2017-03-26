@@ -30,3 +30,6 @@ isinstance(num_names, list)
 # Copied sorting. Returns a sorted copy of original data
 sorted([2, 3, 1])
 sorted([2, 3, 1], reverse=True)
+
+# Return a reverse iterator
+reversed()
