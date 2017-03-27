@@ -24,6 +24,8 @@ str[-3:]  # Return last 3 chars
 
 # Remove whitespace from the leading and trailing
 str.strip()
+':asdf:'.strip(':')  # Remove ':'
+':asdf.'.strip('.:')  # Remove ':' and '.'
 
 # Finding with 'in' operator
 print('asdf' in str)
