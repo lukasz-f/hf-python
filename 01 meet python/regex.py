@@ -5,6 +5,7 @@ import re
 # The meta-characters which do not match themselves because
 # they have special meanings are: . ^ $ * + ? { [ ] \ | ( ) (details below)
 # . (a period) - matches any single character except newline '\n'
+# [\s\S] - matches any single character (including '\n')
 # \w - matches a "word" character: a letter or digit or underbar [a-zA-Z0-9_]
 # \W - matches any non-word character
 # \b - boundary between word and non-word
