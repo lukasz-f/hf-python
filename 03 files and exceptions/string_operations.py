@@ -75,3 +75,6 @@ txt = '%d int, %s string, %f/%g floating point' % (1, '1', 1.1, 1.1)
 
 hash = {'word': 'garfield', 'count': 42}
 s = 'I want %(count)d copies of %(word)s' % hash
+
+# {} operator
+t = '{}={}'.format('a', 1)  # 'a=1'
