@@ -13,6 +13,9 @@ print('asdf')
 print('asdf', sep=' ', end='\n', file=sys.stdout)
 # Wyświetlenie znaku a (bez przejścia do nowej linii)
 print('a', end='')
+# Wyświetlenie wartości różnych typów
+print('a', 1, [5, 'b', True])  # a 1 [5, 'b', True]
+print('a' + str(1) + str([5, 'b', True]))  # a1[5, 'b', True]
 
 # Zapis do pliku
 out = open('data.out', 'w')
