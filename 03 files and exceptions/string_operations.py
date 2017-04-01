@@ -26,6 +26,10 @@ str[-3:]  # Return last 3 chars
 str.strip()
 ':asdf:'.strip(':')  # Remove ':'
 ':asdf.'.strip('.:')  # Remove ':' and '.'
+'radar'.strip('ra')  # Remove 'ra' and 'ar'
+
+str.lstrip()  # Remove from the leading
+str.rstrip()  # Remove from the trailing
 
 # Finding with 'in' operator
 print('asdf' in str)
@@ -34,6 +38,7 @@ print('asdf' not in str)
 # Returns the lowercase or uppercase version of the string
 s.lower()
 s.upper()
+s.swapcase()
 
 # Tests if all the string chars are in the various character classes
 s.isalpha()
@@ -41,8 +46,8 @@ s.isdigit()
 s.isspace()
 
 # Tests if the string starts or ends with the given other string
-s.startswith('other')
-s.endswith('other')
+s.startswith('other')  # s.startswith(prefix[, start[, end]])
+s.endswith('other')  # s.endswith(prefix[, start[, end]])
 
 # Searches for the given other string (not a regular expression) within s,
 # and returns the first index where it begins or -1 if not found
@@ -60,7 +65,8 @@ s.split('delim')
 str.split(':')              # ['asdf', 'fdsa', 'asdf']
 (a, b) = str.split(':', 1)  # ['asdf', 'fdsa:asdf']
 'aaa,bbb,ccc'.split(',')    # ['aaa', 'bbb', 'ccc']
-'aaa bbb ccc'.split()    # ['aaa', 'bbb', 'ccc']
+'aaa bbb  ccc'.split(' ')    # ['aaa', 'bbb', '', 'ccc']
+'aaa bbb  ccc'.split()    # ['aaa', 'bbb', 'ccc']
 
 # Opposite of split(), joins the elements in the given list together
 # using the string as the delimiter
