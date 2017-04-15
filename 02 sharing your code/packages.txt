@@ -1,0 +1,20 @@
+Package = Directory of Pychon Scripts
+Module = Each script
+
+Install package:
+- Download get-pip.py
+- Terminal: python3 get-pip.py
+- Terminal: pip3 install numpy
+
+Import package:
+import numpy
+numpy.array([1, 2, 3])
+
+import numpy as np
+np.array([1, 2, 3])
+
+from numpy import array
+array([1, 2, 3])
+
+from numpy import array as ar
+ar([1, 2, 3])
