@@ -4,9 +4,9 @@ str = ' asdf:fdsa:asdf '
 s = "!" * 5
 
 # s = 'hellothere'
-s = 'hello' + 'there'
+s = 'hello' + 'There'
 
-# s = 'hellothere!'
+# s = 'helloThere!'
 s += '!'
 
 # Get s length
@@ -36,14 +36,17 @@ print('asdf' in str)
 print('asdf' not in str)
 
 # Returns the lowercase or uppercase version of the string
-s.lower()
-s.upper()
-s.swapcase()
+s.lower()  # 'hellothere!'
+s.upper()  # 'HELLOTHERE!''
+s.swapcase()  # 'HELLOtHERE!'
+s.capitalize()  # 'Hellothere!'
 
 # Tests if all the string chars are in the various character classes
 s.isalpha()
 s.isdigit()
 s.isspace()
+
+str.count('a')  # Number of 'a' occurrences: 3
 
 # Tests if the string starts or ends with the given other string
 s.startswith('other')  # s.startswith(prefix[, start[, end]])
@@ -70,7 +73,7 @@ str.split(':')              # ['asdf', 'fdsa', 'asdf']
 
 # Opposite of split(), joins the elements in the given list together
 # using the string as the delimiter
-s.join(list)
+s.join(list())
 '---'.join(['aaa', 'bbb', 'ccc'])  # aaa---bbb---ccc
 ''.join(reversed('Hello world'))  # Reverse string
 
