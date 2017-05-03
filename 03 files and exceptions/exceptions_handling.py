@@ -1,3 +1,4 @@
+# Handle all exceptions and do nothing
 try:
     # your code which might cause a runtime error
     pass
@@ -5,11 +6,12 @@ except:
     # your error-recovery code
     pass
 
-# Handle all exceptions and do nothing
+# Handle all exceptions and always run finally code
 try:
     # your code which might cause a runtime error
     pass
-except:
+finally:
+    # your code that always run
     pass
 
 # Handle only ValueError
